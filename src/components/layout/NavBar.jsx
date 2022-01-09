@@ -16,10 +16,14 @@ import { NavItems } from "../../data/NavItems";
 import { FaPinterest, FaYoutube, FaTwitter } from "react-icons/fa";
 import { CTAButton } from "../styles/common/CTAButton.styled";
 import useScrollDirection from "../../hooks/useScrollDirection";
+import Modal from "../Portal/Modal";
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const scrollDirection = useScrollDirection("down");
+
+  const [modal, setModal] = useState(false);
+  const Toggle = () => setModal(!modal);
 
   return (
     <>
@@ -68,13 +72,27 @@ export const NavBar = () => {
                   </SocialIcons>
                 ) : null}
                 {navItem.hasCTA ? (
-                  <CTAButton href="#" target="_blank" rel="noopener noreferrer">
-                    Więcej
-                  </CTAButton>
+                  <CTAButton onClick={() => Toggle()}>CIEKAWOSTKA</CTAButton>
                 ) : null}
               </NavItemStyled>
             ))}
         </NavList>
+        <Modal show={modal} close={Toggle} title="Luźni ludzie">
+          <p>
+            Luźni ludzie, hultaje, ludzie swawolni, wagabundzi, wałęsy,
+            włóczęgi, w późnym średniowieczu i czasach nowożytnych do schyłku
+            XVIII w. kategoria ludności nieposiadająca majątku, stałego miejsca
+            zamieszkania i stałego zajęcia, a w rezultacie niepozostająca w
+            zależności osobistej i nieobciążona powinnościami na rzecz klasy
+            feudalnej.
+          </p>
+          <br />
+          <p>
+            <em>
+              pl.wikipedia.org/wiki/Zbrodnie_niemieckie_w_Polsce_(1939-1945)
+            </em>
+          </p>
+        </Modal>
       </Nav>
     </>
   );

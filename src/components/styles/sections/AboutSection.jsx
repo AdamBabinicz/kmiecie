@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   StyledAboutSection,
   ImageContainer,
@@ -9,8 +10,12 @@ import {
   StyledEmoji,
 } from "../../styles/sections/AboutSection.styled";
 import { CTAButton } from "../common/CTAButton.styled";
+import Modal from "../../Portal/Modal";
 
 export const AboutSection = () => {
+  const [modal, setModal] = useState(false);
+  const Toggle = () => setModal(!modal);
+
   return (
     <>
       <StyledAboutSection id="gospodarstwa">
@@ -48,9 +53,33 @@ export const AboutSection = () => {
             łany, i godził się je oddawać na korzystniejszych dla chłopów
             warunkach niż przy normalnym osadzaniu kmiecia."
           </p>
-          <CTAButton href="#" target="_blank" rel="noopener noreferrer">
+          <CTAButton
+            className="btn"
+            onClick={() => Toggle()}
+            // target="_blank"
+            // rel="noopener noreferrer"
+          >
             Czytaj
           </CTAButton>
+          <Modal show={modal} close={Toggle} title="Czynsze i daniny chłopskie">
+            <p>
+              Od czasu rozprzestrzenienia się gospodarki towarowo-pieniężnej w
+              XIII - XIV wieku istniały na wsi opłaty pieniężne na rzecz pana,
+              tzw. czynsze. Czynsze obliczano w groszach z łanu czy włóki i
+              płacono najczęściej raz do roku na św. Marcina (n. XI.), lub też
+              rzadziej kwartalnie. Czynsze były różnej wielkości, najczęściej w
+              XVI w. około 30-48-60 groszy z łana kmiecego, z tym że praktycznie
+              wahania tej stawki były nieraz duże nawet w obrębie tych samych
+              dóbr, np. od 12 do 108 gr 2 łana. Zależało to od pozostałych
+              obciążeń i ich wielkości.
+            </p>
+            <br />
+            <p>
+              <em>
+                otworzksiazke.pl/images/ksiazki/wies_polskiego_odrodzenia/wies_polskiego_odrodzenia.pdf
+              </em>
+            </p>
+          </Modal>
         </AboutContent>
       </StyledAboutSection>
       <hr />
