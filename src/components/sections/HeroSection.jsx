@@ -25,7 +25,7 @@ export const HeroSection = () => {
   return (
     <StyledHeroSection id="hero-section">
       <HeroContent>
-        <h1>Polska wieś szlachecka w XVI wieku</h1>
+        <h1>Polska wieś w XVI w.</h1>
         <h3>
           Kmiecie, główna w renesansie grupa ludności chłopskiej, stanowili
           warstwę, którą obecnie byliby chłopi pełnorolni.
