@@ -3,7 +3,7 @@ import { GlobalStyles } from "./components/styles/Globals.styled";
 import { NavBar } from "./components/layout/NavBar";
 import { TopBanner } from "./components/layout/TopBanner";
 import { HeroSection } from "./components/sections/HeroSection";
-import { AboutSection } from "./components/styles/sections/AboutSection";
+import { AboutSection } from "./components/sections/AboutSection";
 import { Container } from "./components/styles/common/Container.styled";
 import { ProjectsSection } from "./components/sections/ProjectsSection";
 import { ServicesSection } from "./components/styles/sections/ServicesSection";

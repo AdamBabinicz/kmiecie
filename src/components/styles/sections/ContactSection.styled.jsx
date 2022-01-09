@@ -80,7 +80,7 @@ export const ImageWrapper = styled.div`
     margin-bottom: 2rem;
 
     img {
-      height: 500px;
+      height: 800px;
     }
   }
 `;

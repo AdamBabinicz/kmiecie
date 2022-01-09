@@ -117,9 +117,13 @@ export const AboutContent = styled.div`
   }
 `;
 
-export const StyledHeading = styled.div`
+export const StyledHeading = styled.h2`
   font-size: 3rem;
   margin-bottom: 20px;
+
+  @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
+    font-size: 2rem;
+  }
 `;
 
 export const StyledEmoji = styled.span`

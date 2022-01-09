@@ -8,9 +8,9 @@ import {
   GradientCircle,
   DarkCircle,
   StyledEmoji,
-} from "../../styles/sections/AboutSection.styled";
-import { CTAButton } from "../common/CTAButton.styled";
-import Modal from "../../Portal/Modal";
+} from "../styles/sections/AboutSection.styled";
+import { CTAButton } from "../styles/common/CTAButton.styled";
+import Modal from "../Portal/Modal";
 
 export const AboutSection = () => {
   const [modal, setModal] = useState(false);
@@ -53,12 +53,7 @@ export const AboutSection = () => {
             łany, i godził się je oddawać na korzystniejszych dla chłopów
             warunkach niż przy normalnym osadzaniu kmiecia."
           </p>
-          <CTAButton
-            className="btn"
-            onClick={() => Toggle()}
-            // target="_blank"
-            // rel="noopener noreferrer"
-          >
+          <CTAButton className="btn" onClick={() => Toggle()}>
             Czytaj
           </CTAButton>
           <Modal show={modal} close={Toggle} title="Czynsze i daniny chłopskie">
