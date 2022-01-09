@@ -51,7 +51,7 @@ export const NavBar = () => {
                   <NavLink href="#hero-section">
                     <Profile>
                       <img src="./images/1.svg" alt="..." />
-                      <span>Kondycja chłopów w czasach odrodzenia</span>
+                      <span>ChłopI w czasach odrodzenia</span>
                     </Profile>
                   </NavLink>
                 ) : null}

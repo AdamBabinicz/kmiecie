@@ -19,6 +19,10 @@ export const FooterNav = styled.div`
   $:last-child {
     margin: 0;
   }
+
+  @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
+    display: flex;
+  }
 `;
 
 export const CodeWith = styled.div`
