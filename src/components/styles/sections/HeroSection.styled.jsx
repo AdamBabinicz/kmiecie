@@ -6,7 +6,7 @@ const typing = keyframes`
     /* color: ${({ theme }) => theme.colors.orange}; */
   },
   100% { 
-    width: 72ch;
+    width: 36ch;
   }
 `;
 
@@ -65,9 +65,9 @@ export const HeroContent = styled.div`
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    width: 62ch;
+    width: 36ch;
     margin: auto;
-    animation: ${typing} 5s steps(62), ${blink} 1s ease-in-out 8s infinite;
+    animation: ${typing} 5s steps(36), ${blink} 1s ease-in-out 8s infinite;
     border-right: 4px solid rgba(255, 255, 255, 1);
     position: absolute;
     left: 50%;
@@ -103,10 +103,10 @@ export const HeroContent = styled.div`
       font-size: 1rem;
     }
     h3 {
-      font-size: 2rem;
+      font-size: 1rem;
     }
     p {
-      font-size: 1.1rem;
+      font-size: 0.9rem;
       padding: 0 1rem;
     }
   }
