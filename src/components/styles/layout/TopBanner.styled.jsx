@@ -5,7 +5,7 @@ export const StyledTopBanner = styled.div`
   top: 0;
   width: 100%;
   height: 40px;
-  background: ${({ theme }) => theme.colors.white};
+  background: ${({ theme }) => theme.colors.gray};
   color: ${({ theme }) => theme.colors.navyBlue};
   display: flex;
   align-items: center;

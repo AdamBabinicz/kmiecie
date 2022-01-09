@@ -20,6 +20,7 @@ const App = () => {
       orange: "rgba(249, 105, 14, 1)",
       purple: "rgba(102, 51, 153, 1)",
       red: "rgba(255, 0, 0, 1)",
+      gray: "rgba(182, 182, 182, 1)",
     },
     mobile: "768px",
     transition: "all .4s ease-in-out",
