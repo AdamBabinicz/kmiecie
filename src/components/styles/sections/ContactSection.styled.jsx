@@ -36,10 +36,6 @@ export const ContactInfo = styled.div`
     padding: 0;
     margin-bottom: 2rem;
     text-align: left;
-
-    @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
-      text-align: justify;
-    }
   }
 
   div {
