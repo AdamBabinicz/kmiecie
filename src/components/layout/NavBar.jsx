@@ -88,9 +88,7 @@ export const NavBar = () => {
           </p>
           <br />
           <p>
-            <em>
-              pl.wikipedia.org/wiki/Zbrodnie_niemieckie_w_Polsce_(1939-1945)
-            </em>
+            <em>encyklopedia.pwn.pl/haslo/luzni-ludzie;3934666.html</em>
           </p>
         </Modal>
       </Nav>
