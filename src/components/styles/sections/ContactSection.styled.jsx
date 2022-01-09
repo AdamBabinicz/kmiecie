@@ -80,7 +80,8 @@ export const ImageWrapper = styled.div`
     margin-bottom: 2rem;
 
     img {
-      height: 800px;
+      height: 500px;
+      object-fit: cover;
     }
   }
 `;
