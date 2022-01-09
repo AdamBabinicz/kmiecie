@@ -72,6 +72,7 @@ export const ImageWrapper = styled.div`
   img {
     width: 100%;
     animation: ${float} 3s ease-in-out infinite;
+    object-fit: cover;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.mobile}) {

@@ -14,6 +14,10 @@ export const GlobalStyles = createGlobalStyle`
       font-size: 12px;
       margin: 0;
    }
+
+   body {
+      overflow-x: hidden;
+   }
    
     a {
        text-decoration:none;
