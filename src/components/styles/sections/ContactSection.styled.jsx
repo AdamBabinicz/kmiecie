@@ -73,15 +73,15 @@ export const ImageWrapper = styled.div`
     width: 100%;
     height: auto;
     animation: ${float} 3s ease-in-out infinite;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
     justify-content: flex-start;
     margin-bottom: 2rem;
 
-    img {
+    /* img {
       object-fit: contain;
-    }
+    } */
   }
 `;

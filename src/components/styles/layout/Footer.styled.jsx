@@ -22,6 +22,7 @@ export const FooterNav = styled.div`
 
   @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
     display: flex;
+    flex-wrap: wrap;
   }
 `;
 
