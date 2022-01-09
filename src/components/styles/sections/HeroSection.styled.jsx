@@ -103,10 +103,10 @@ export const HeroContent = styled.div`
       font-size: 1rem;
     }
     h3 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding: 0 1rem;
     }
   }
