@@ -21,8 +21,9 @@ export const FooterNav = styled.div`
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1rem;
   }
 `;
 

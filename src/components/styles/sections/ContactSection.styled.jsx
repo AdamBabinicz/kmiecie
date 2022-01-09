@@ -71,7 +71,6 @@ export const ImageWrapper = styled.div`
 
   img {
     width: 100%;
-    height: auto;
     animation: ${float} 3s ease-in-out infinite;
     object-fit: contain;
   }
@@ -80,8 +79,8 @@ export const ImageWrapper = styled.div`
     justify-content: flex-start;
     margin-bottom: 2rem;
 
-    /* img {
-      object-fit: contain;
-    } */
+    img {
+      height: 500px;
+    }
   }
 `;
