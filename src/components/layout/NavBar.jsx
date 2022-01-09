@@ -50,7 +50,7 @@ export const NavBar = () => {
                 {navItem.isProfile ? (
                   <NavLink href="#hero-section">
                     <Profile>
-                      <img src="./images/1.svg" alt="..." />
+                      <img src="./images/3.png" alt="..." />
                       <span>ChłopI w czasach odrodzenia</span>
                     </Profile>
                   </NavLink>
