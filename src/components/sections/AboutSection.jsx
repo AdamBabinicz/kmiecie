@@ -65,7 +65,7 @@ export const AboutSection = () => {
               rzadziej kwartalnie. Czynsze były różnej wielkości, najczęściej w
               XVI w. około 30-48-60 groszy z łana kmiecego, z tym że praktycznie
               wahania tej stawki były nieraz duże nawet w obrębie tych samych
-              dóbr, np. od 12 do 108 gr 2 łana. Zależało to od pozostałych
+              dóbr, np. od 12 do 108 gr z łana. Zależało to od pozostałych
               obciążeń i ich wielkości.
             </p>
             <br />
