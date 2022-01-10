@@ -32,7 +32,7 @@ export const SingleService = styled.div`
   &:last-child {
     margin-right: 0;
   }
-  h2 {
+  h3 {
     font-size: 2rem;
     margin: 1.5rem 0;
     background: linear-gradient(

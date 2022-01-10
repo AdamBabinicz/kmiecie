@@ -31,7 +31,7 @@ export const ServicesSection = () => {
             <IconWrapper>
               <GiCellarBarrels />
             </IconWrapper>
-            <h2>Karczmarze</h2>
+            <h3>Karczmarze</h3>
             <p>
               "W XVI wieku ściślejszego ograniczenia uprawnień karczmarzy przez
               dwór jeszcze nie było. Karczmarze produkowali i&nbsp;sprzedawali
@@ -43,7 +43,7 @@ export const ServicesSection = () => {
             <IconWrapper>
               <GiWaterMill />
             </IconWrapper>
-            <h2>Młynarze</h2>
+            <h3>Młynarze</h3>
             <p>
               "Jeśli młynarz sam budował młyn, otrzymywał zapisaną na nim (jak
               gdyby hipotecznie) sumę, odpowiadającą w&nbsp;przybliżeniu
@@ -55,7 +55,7 @@ export const ServicesSection = () => {
             <IconWrapper>
               <GiAnvilImpact />
             </IconWrapper>
-            <h2>Kowale</h2>
+            <h3>Kowale</h3>
             <p>
               "Istotę pracy kowala stanowiła kuźnia i&nbsp;jej urządzenia takie
               jak miech, kowadło sąsiadujące z&nbsp;paleniskiem, młoty

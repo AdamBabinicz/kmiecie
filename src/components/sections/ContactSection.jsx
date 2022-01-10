@@ -12,7 +12,7 @@ export const ContactSection = () => {
     <>
       <StyledContactSection id="epilog">
         <SectionHeading>
-          <h2>Epilog</h2>
+          <h3>Epilog</h3>
           <p>
             "Wsi spokojna, wsi wesoła
             <br />
